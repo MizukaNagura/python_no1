@@ -1,0 +1,18 @@
+version: '3'
+services:
+  python3:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    tty: true
+    volumes:
+    - workspace:/workspace
+    ports:
+      - '1000:8888'
+
+volumes:
+  workspace:
+    #  driver_opts:
+    #        type: none
+    #        device: absolute path
+    #        o: bind
