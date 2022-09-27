@@ -1,2 +1,2 @@
-    NumPy==1.23.2 
-    jupyterlab==3.4.5 
+NumPy==1.23.2 
+jupyterlab==3.4.5 
